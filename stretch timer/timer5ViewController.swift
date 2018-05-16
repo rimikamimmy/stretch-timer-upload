@@ -74,7 +74,7 @@ class timer5ViewController: UIViewController {
         if currentTime == 3600{
             currentTime = 0
         }
-    
+        
         
         func viewDidLoad() {
             super.viewDidLoad()

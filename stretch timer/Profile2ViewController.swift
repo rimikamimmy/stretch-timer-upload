@@ -9,7 +9,7 @@
 import UIKit
 
 class Profile2ViewController: UIViewController {
-
+    
     @IBOutlet var ningen2ImageView: UIImageView!
     
     @IBOutlet var modoru2button: UIButton!
@@ -36,14 +36,14 @@ class Profile2ViewController: UIViewController {
     
     @IBOutlet var savebutton: UIButton!
     
-
+    
     let saveData = UserDefaults.standard
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         
         age2textField.placeholder = "テキストを入力"
         height2textFiled.placeholder = "テキストを入力"
@@ -113,18 +113,18 @@ class Profile2ViewController: UIViewController {
             style: .default,
             handler: nil
         ))
-//
-//        @IBAction func back() {
-//            //        self.dismiss(animated: true, completion: nil)
-//            self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
-//        }
+        //
+        //        @IBAction func back() {
+        //            //        self.dismiss(animated: true, completion: nil)
+        //            self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
+        //        }
     }
-            @IBAction func back() {
-                self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
-             
-        }
-
-
+    @IBAction func back() {
+        self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
+        
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
@@ -137,16 +137,16 @@ class Profile2ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
 

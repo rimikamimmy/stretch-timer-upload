@@ -53,7 +53,7 @@ class ProfileViewController: UIViewController {
         food2textField.placeholder = "テキストを入力"
         food3textField.placeholder = "テキストを入力"
         
-      
+        
         
         if saveData.object(forKey: "age") != nil{
             agetextField.text = (saveData.object(forKey: "age") as! String)
@@ -83,9 +83,9 @@ class ProfileViewController: UIViewController {
         
         
     }
-  
     
-
+    
+    
     
     @IBAction func saveWord(_ sender: Any) {
         
@@ -112,21 +112,21 @@ class ProfileViewController: UIViewController {
             message: "プロフィールが登録できました",
             preferredStyle : .alert
         )
-
+        
         alert.addAction(UIAlertAction(
             title: "OK",
             style: .default,
-        handler: nil
+            handler: nil
         ))
-
+        
     }
     
     @IBAction func back() {
-//        self.dismiss(animated: true, completion: nil)
+        //        self.dismiss(animated: true, completion: nil)
         self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
     }
-
-
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

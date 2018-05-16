@@ -9,11 +9,11 @@
 import UIKit
 
 class timer4ViewController: UIViewController {
-
+    
     var StopWatchTimer = Timer()
     var currentTime = 0
     
-
+    
     
     @IBOutlet weak var minutesLabel: UILabel!
     @IBOutlet weak var secondsLabel: UILabel!
@@ -27,9 +27,9 @@ class timer4ViewController: UIViewController {
         //        self.dismiss(animated: true, completion: nil)
         self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
     }
-
+    
     @IBAction func back1() {
-         self.dismiss(animated: true, completion: nil)
+        self.dismiss(animated: true, completion: nil)
     }
     
     
@@ -62,7 +62,7 @@ class timer4ViewController: UIViewController {
         secondsLabel.text = "0"
         
         StopWatchTimer.invalidate()
-    
+        
     }
     
     @objc func updateTime(){
@@ -75,39 +75,39 @@ class timer4ViewController: UIViewController {
             currentTime = 0
         }
         
-    
-    
+        
+        
         
         func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-//        @IBAction func back() {
-//            //        self.dismiss(animated: true, completion: nil)
-//            self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
-//        }
+            super.viewDidLoad()
+            
+            // Do any additional setup after loading the view.
+        }
         
-      
-
+        //        @IBAction func back() {
+        //            //        self.dismiss(animated: true, completion: nil)
+        //            self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
+        //        }
+        
+        
+        
         
         
         func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+            super.didReceiveMemoryWarning()
+            // Dispose of any resources that can be recreated.
+        }
+        
+        
+        /*
+         // MARK: - Navigation
+         
+         // In a storyboard-based application, you will often want to do a little preparation before navigation
+         override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+         // Get the new view controller using segue.destinationViewController.
+         // Pass the selected object to the new view controller.
+         }
+         */
+        
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}
 }
