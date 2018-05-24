@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  stretch timer
+//  testA
 //
-//  Created by Rimika Inoguchi on 2018/04/25.
+//  Created by Rimika Inoguchi on 2018/05/23.
 //  Copyright © 2018年 Rimika Inoguchi. All rights reserved.
 //
 
@@ -15,6 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        StoryboardHelper.adjust(to: window)
         // Override point for customization after application launch.
         return true
     }

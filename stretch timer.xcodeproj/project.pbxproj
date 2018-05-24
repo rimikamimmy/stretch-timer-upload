@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		840C15D62090523200715A95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C15D52090523200715A95 /* AppDelegate.swift */; };
-		840C15D82090523200715A95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C15D72090523200715A95 /* ViewController.swift */; };
 		840C15DB2090523200715A95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840C15D92090523200715A95 /* Main.storyboard */; };
 		840C15DD2090523200715A95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840C15DC2090523200715A95 /* Assets.xcassets */; };
-		840C15E02090523200715A95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840C15DE2090523200715A95 /* LaunchScreen.storyboard */; };
 		840C15EB2090523200715A95 /* stretch_timerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C15EA2090523200715A95 /* stretch_timerTests.swift */; };
 		840C15F62090523200715A95 /* stretch_timerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C15F52090523200715A95 /* stretch_timerUITests.swift */; };
 		842228FE20AADF0300961F83 /* timer2.png in Resources */ = {isa = PBXBuildFile; fileRef = 842228FD20AADF0200961F83 /* timer2.png */; };
@@ -27,16 +24,20 @@
 		847B1BA020A6D13800FDF921 /* timerselectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B1B9F20A6D13800FDF921 /* timerselectViewController.swift */; };
 		847B1BA720A6D66600FDF921 /* Summer Font Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 847B1BA620A6D66500FDF921 /* Summer Font Light.otf */; };
 		847B1BA920A6D78800FDF921 /* timer3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B1BA820A6D78800FDF921 /* timer3ViewController.swift */; };
+		84B066F420B6BD5F003DD8DA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B066F320B6BD5F003DD8DA /* icon.png */; };
+		84B066F620B6BDF4003DD8DA /* ハート色shiro.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B066F520B6BDF3003DD8DA /* ハート色shiro.png */; };
+		84B066F820B6BE73003DD8DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B066F720B6BE73003DD8DA /* ViewController.swift */; };
+		84B066FA20B6BF18003DD8DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B066F920B6BF18003DD8DA /* AppDelegate.swift */; };
+		84B066FC20B6F5B2003DD8DA /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B066FB20B6F5B2003DD8DA /* StoryboardHelper.swift */; };
+		84B0670020B70625003DD8DA /* 3.5inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B066FF20B70625003DD8DA /* 3.5inch.storyboard */; };
 		84E78D9420A75D7800C3780A /* Profile2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E78D9320A75D7800C3780A /* Profile2ViewController.swift */; };
 		84E78D9A20A84B0E00C3780A /* ハート色.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E78D9920A84B0E00C3780A /* ハート色.png */; };
 		84E78D9E20A84B9500C3780A /* Audrey-Normal.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84E78D9D20A84B9400C3780A /* Audrey-Normal.otf */; };
 		84E78DA220A84F7200C3780A /* ハート色3.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E78DA120A84F6F00C3780A /* ハート色3.png */; };
-		84E78DA420A8500800C3780A /* ハート色shiro.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E78DA320A8500500C3780A /* ハート色shiro.png */; };
 		84E78DA620A853BF00C3780A /* timer4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E78DA520A853BF00C3780A /* timer4ViewController.swift */; };
 		84E78DA820A986FA00C3780A /* Nexa Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84E78DA720A986F900C3780A /* Nexa Light.otf */; };
 		84E78DAA20A9889400C3780A /* Nexa Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84E78DA920A9889100C3780A /* Nexa Bold.otf */; };
 		84E78DAC20A98F1000C3780A /* timer5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E78DAB20A98F1000C3780A /* timer5ViewController.swift */; };
-		84E78DB420AAD99B00C3780A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E78DB320AAD99B00C3780A /* icon.png */; };
 		84E78DB820AADD7700C3780A /* timer1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E78DB720AADD7100C3780A /* timer1.png */; };
 		983E2C863B2CA21727670B0A /* Pods_stretch_timerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F0CC95096946E02F8FDBBE /* Pods_stretch_timerUITests.framework */; };
 		D335208ADC61233FFBB7B994 /* Pods_stretch_timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4073D01A26FA622D2225C400 /* Pods_stretch_timer.framework */; };
@@ -65,11 +66,8 @@
 		4073D01A26FA622D2225C400 /* Pods_stretch_timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stretch_timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F0CC95096946E02F8FDBBE /* Pods_stretch_timerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stretch_timerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		840C15D22090523200715A95 /* stretch timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stretch timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		840C15D52090523200715A95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		840C15D72090523200715A95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		840C15DA2090523200715A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		840C15DC2090523200715A95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		840C15DF2090523200715A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840C15E12090523200715A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840C15E62090523200715A95 /* stretch timerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stretch timerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		840C15EA2090523200715A95 /* stretch_timerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stretch_timerTests.swift; sourceTree = "<group>"; };
@@ -90,16 +88,20 @@
 		847B1B9F20A6D13800FDF921 /* timerselectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerselectViewController.swift; sourceTree = "<group>"; };
 		847B1BA620A6D66500FDF921 /* Summer Font Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Summer Font Light.otf"; sourceTree = "<group>"; };
 		847B1BA820A6D78800FDF921 /* timer3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer3ViewController.swift; sourceTree = "<group>"; };
+		84B066F320B6BD5F003DD8DA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		84B066F520B6BDF3003DD8DA /* ハート色shiro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ハート色shiro.png"; sourceTree = "<group>"; };
+		84B066F720B6BE73003DD8DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84B066F920B6BF18003DD8DA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84B066FB20B6F5B2003DD8DA /* StoryboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardHelper.swift; sourceTree = "<group>"; };
+		84B066FF20B70625003DD8DA /* 3.5inch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = 3.5inch.storyboard; path = 3.5inch.storyboard/3.5inch.storyboard; sourceTree = "<group>"; };
 		84E78D9320A75D7800C3780A /* Profile2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile2ViewController.swift; sourceTree = "<group>"; };
 		84E78D9920A84B0E00C3780A /* ハート色.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ハート色.png"; sourceTree = "<group>"; };
 		84E78D9D20A84B9400C3780A /* Audrey-Normal.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Audrey-Normal.otf"; sourceTree = "<group>"; };
 		84E78DA120A84F6F00C3780A /* ハート色3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ハート色3.png"; sourceTree = "<group>"; };
-		84E78DA320A8500500C3780A /* ハート色shiro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ハート色shiro.png"; sourceTree = "<group>"; };
 		84E78DA520A853BF00C3780A /* timer4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer4ViewController.swift; sourceTree = "<group>"; };
 		84E78DA720A986F900C3780A /* Nexa Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa Light.otf"; sourceTree = "<group>"; };
 		84E78DA920A9889100C3780A /* Nexa Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa Bold.otf"; sourceTree = "<group>"; };
 		84E78DAB20A98F1000C3780A /* timer5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer5ViewController.swift; sourceTree = "<group>"; };
-		84E78DB320AAD99B00C3780A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		84E78DB720AADD7100C3780A /* timer1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer1.png; sourceTree = "<group>"; };
 		85AA92F78695BEBD12C86F8F /* Pods-stretch timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timer.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timer/Pods-stretch timer.release.xcconfig"; sourceTree = "<group>"; };
 		A754E25EBD3D0D8E6509A3BB /* Pods-stretch timerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timerTests/Pods-stretch timerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -165,21 +167,23 @@
 				847B1B1F20A5A78D00FDF921 /* CAMELIAE.TTF */,
 				84E78DA720A986F900C3780A /* Nexa Light.otf */,
 				84E78DB720AADD7100C3780A /* timer1.png */,
-				84E78DB320AAD99B00C3780A /* icon.png */,
 				84E78DA920A9889100C3780A /* Nexa Bold.otf */,
+				84B066FB20B6F5B2003DD8DA /* StoryboardHelper.swift */,
 				8422290120AAE02D00961F83 /* timer3.png */,
 				842228FD20AADF0200961F83 /* timer2.png */,
+				84B066F320B6BD5F003DD8DA /* icon.png */,
 				84E78D9D20A84B9400C3780A /* Audrey-Normal.otf */,
 				84E78D9920A84B0E00C3780A /* ハート色.png */,
 				847B1BA620A6D66500FDF921 /* Summer Font Light.otf */,
+				84B066F520B6BDF3003DD8DA /* ハート色shiro.png */,
+				84B066FF20B70625003DD8DA /* 3.5inch.storyboard */,
 				8422290320AAEBD100961F83 /* にんげん.png */,
 				84E78DA120A84F6F00C3780A /* ハート色3.png */,
-				84E78DA320A8500500C3780A /* ハート色shiro.png */,
 				847B1B9920A6C10C00FDF921 /* 女.png */,
 				847B1B9720A6BFDC00FDF921 /* MAN.png */,
-				840C15D52090523200715A95 /* AppDelegate.swift */,
-				840C15D72090523200715A95 /* ViewController.swift */,
+				84B066F920B6BF18003DD8DA /* AppDelegate.swift */,
 				840C15D92090523200715A95 /* Main.storyboard */,
+				84B066F720B6BE73003DD8DA /* ViewController.swift */,
 				847B1B9B20A6C24200FDF921 /* genderViewController.swift */,
 				8425739820931A3900CCFB7F /* ProfileViewController.swift */,
 				84E78D9320A75D7800C3780A /* Profile2ViewController.swift */,
@@ -190,7 +194,6 @@
 				84E78DA520A853BF00C3780A /* timer4ViewController.swift */,
 				84E78DAB20A98F1000C3780A /* timer5ViewController.swift */,
 				840C15DC2090523200715A95 /* Assets.xcassets */,
-				840C15DE2090523200715A95 /* LaunchScreen.storyboard */,
 				840C15E12090523200715A95 /* Info.plist */,
 			);
 			path = "stretch timer";
@@ -350,20 +353,20 @@
 			files = (
 				847B1B9820A6BFDC00FDF921 /* MAN.png in Resources */,
 				847B1B2020A5A7B100FDF921 /* CAMELIAE.TTF in Resources */,
+				84B066F420B6BD5F003DD8DA /* icon.png in Resources */,
 				847B1BA720A6D66600FDF921 /* Summer Font Light.otf in Resources */,
 				84E78DA220A84F7200C3780A /* ハート色3.png in Resources */,
 				84E78DA820A986FA00C3780A /* Nexa Light.otf in Resources */,
-				84E78DA420A8500800C3780A /* ハート色shiro.png in Resources */,
 				84E78D9A20A84B0E00C3780A /* ハート色.png in Resources */,
-				840C15E02090523200715A95 /* LaunchScreen.storyboard in Resources */,
 				840C15DD2090523200715A95 /* Assets.xcassets in Resources */,
 				840C15DB2090523200715A95 /* Main.storyboard in Resources */,
+				84B066F620B6BDF4003DD8DA /* ハート色shiro.png in Resources */,
 				842228FE20AADF0300961F83 /* timer2.png in Resources */,
 				8422290420AAEBD800961F83 /* にんげん.png in Resources */,
 				84E78D9E20A84B9500C3780A /* Audrey-Normal.otf in Resources */,
-				84E78DB420AAD99B00C3780A /* icon.png in Resources */,
 				84E78DAA20A9889400C3780A /* Nexa Bold.otf in Resources */,
 				8422290220AAE03000961F83 /* timer3.png in Resources */,
+				84B0670020B70625003DD8DA /* 3.5inch.storyboard in Resources */,
 				847B1B9A20A6C10D00FDF921 /* 女.png in Resources */,
 				84E78DB820AADD7700C3780A /* timer1.png in Resources */,
 			);
@@ -465,15 +468,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B066FA20B6BF18003DD8DA /* AppDelegate.swift in Sources */,
 				847B1BA920A6D78800FDF921 /* timer3ViewController.swift in Sources */,
 				84E78DA620A853BF00C3780A /* timer4ViewController.swift in Sources */,
 				8425749420A30F8800CCFB7F /* TimerViewController.swift in Sources */,
 				84E78D9420A75D7800C3780A /* Profile2ViewController.swift in Sources */,
+				84B066F820B6BE73003DD8DA /* ViewController.swift in Sources */,
+				84B066FC20B6F5B2003DD8DA /* StoryboardHelper.swift in Sources */,
 				847B1B9C20A6C24200FDF921 /* genderViewController.swift in Sources */,
 				84E78DAC20A98F1000C3780A /* timer5ViewController.swift in Sources */,
 				8425739920931A3900CCFB7F /* ProfileViewController.swift in Sources */,
-				840C15D82090523200715A95 /* ViewController.swift in Sources */,
-				840C15D62090523200715A95 /* AppDelegate.swift in Sources */,
 				847B1BA020A6D13800FDF921 /* timerselectViewController.swift in Sources */,
 				847B1B9E20A6CDEA00FDF921 /* timer2ViewController.swift in Sources */,
 			);
@@ -517,14 +521,6 @@
 				840C15DA2090523200715A95 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		840C15DE2090523200715A95 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				840C15DF2090523200715A95 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
