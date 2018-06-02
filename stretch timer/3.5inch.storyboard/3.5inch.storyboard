@@ -263,14 +263,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ONy-Iz-UsH" userLabel="SecondsLabel">
-                                <rect key="frame" x="193" y="215" width="63" height="53"/>
+                                <rect key="frame" x="193" y="215" width="80" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="53"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KeG-wZ-u4N" userLabel="MinutesLabel">
-                                <rect key="frame" x="68" y="215" width="65" height="53"/>
+                                <rect key="frame" x="48" y="215" width="85" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="53"/>
                                 <nil key="textColor"/>
@@ -352,7 +352,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q0e-o0-5zh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2772.4637681159425" y="1709.5108695652175"/>
+            <point key="canvasLocation" x="-2773.125" y="1708.75"/>
         </scene>
         <!--Timerselect View Controller-->
         <scene sceneID="Ykp-sH-nKI">

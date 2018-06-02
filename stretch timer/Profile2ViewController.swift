@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Profile2ViewController: UIViewController {
+class Profile2ViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet var ningen2ImageView: UIImageView!
     
@@ -43,6 +43,13 @@ class Profile2ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        age2textField.delegate = self
+        height2textFiled.delegate = self
+        weight2textField.delegate = self
+        tabemono1textField.delegate = self
+        tabemono2textField.delegate = self
+        tabemono3textField.delegate = self
         
         
         age2textField.placeholder = "テキストを入力"
@@ -124,16 +131,23 @@ class Profile2ViewController: UIViewController {
         
     }
     
+    func textFieldShouldReturn(_ agetextField: UITextField) -> Bool {
+        // キーボードを閉じる
+        agetextField.resignFirstResponder()
+        
+        return true
+    }
+    
+    
+    
+    
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
-        func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-            
-            
-            textField.resignFirstResponder()
-            return true
-        }
+        
         // Dispose of any resources that can be recreated.
     }
     

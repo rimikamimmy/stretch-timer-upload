@@ -7,7 +7,7 @@ target 'stretch timer' do
 
   # Pods for stretch timer
 
-pod 'Charts'
+
   target 'stretch timerTests' do
     inherit! :search_paths
     # Pods for testing
